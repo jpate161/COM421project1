@@ -1,0 +1,171 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    margin-right: -500px;
+    background: #f4f4f4;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: hsl(193, 35%, 37%);
+    color: rgb(255, 255, 255);
+    padding: 1em;
+    text-align: center;
+    z-index: 1000;
+}
+
+h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1em;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+main {
+    position: relative;
+    top: 130px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
+    margin-bottom: 150px;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    width: 250px;
+    top: 0;
+    left: 0;
+    height: 100%;
+    overflow-y: auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    padding-top: 150px;
+}
+
+.sidebar-section1,
+.sidebar-section2,
+.sidebar-section3,
+.sidebar-section4,
+.sidebar-section5,
+.sidebar-section6,
+.sidebar-section7,
+.sidebar-section8 {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+
+.sidebar-section1 {
+    margin-top: 0;
+}
+
+.sidebar-section2 {
+    margin-top: 1040px;
+}
+
+.sidebar-section3 {
+    margin-top: 365px;
+}
+
+.sidebar-section4 {
+    margin-top: 1280px;
+}
+
+.sidebar-section5 {
+    margin-top: 2170px;
+}
+
+.sidebar-section6 {
+    margin-top: 2000px;
+}
+
+.sidebar-section7 {
+    margin-top: 435px;
+}
+
+.sidebar-section8 {
+    margin-top: 1000px;
+}
+
+
+footer {
+    text-align: center;
+    padding: 1em;
+    background: #d5d5d5;
+}
+
+.back-to-top {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.back-to-top a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.back-to-top a:hover {
+    background-color: #0056b3;
+}
+
+.module {
+    display: block;
+}
+
+section {
+    margin-bottom: 6em;
+    padding: 1em; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    background-color: #f9f9f9; 
+}
+
+.module-nav {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.module-nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.module-nav ul li {
+    margin-bottom: 0.5em;
+}
